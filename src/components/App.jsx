@@ -1,16 +1,23 @@
-export const App = () => {
+import { Routes, Route } from 'react-router-dom';
+import { lazy } from 'react';
+import Layout from './layout/Layout';
+
+const Home = lazy(() => import('pages/home/Home'));
+const Catalog = lazy(() => import('pages/catalog/Catalog'));
+const Favorite = lazy(() => import('pages/favorite/Favorite'));
+
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="catalog" element={<Catalog />} />
+          <Route path="favorite" element={<Favorite />} />
+        </Route>
+      </Routes>
+    </>
   );
 };
+
+export default App;
