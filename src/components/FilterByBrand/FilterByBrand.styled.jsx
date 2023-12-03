@@ -1,0 +1,126 @@
+import styled from '@emotion/styled';
+
+export const DropContainer = styled.div`
+  position: relative;
+  margin-right: 18px;
+`;
+
+export const LabelWrapper = styled.div`
+  position: relative;
+  display: block;
+  width: 331px;
+`;
+
+export const BrandLabel = styled.label`
+  display: flex;
+  flex-direction: column;
+
+  color: #8a8a89;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+`;
+
+export const Input = styled.input`
+  margin-top: 8px;
+  padding: 14px 89px 14px 18px;
+  width: 224px;
+  height: auto;
+
+  color: #121417;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  border-radius: 14px;
+  background-color: #f7f7fb;
+
+  &::placeholder {
+    color: #121417;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.11;
+    opacity: 1;
+  }
+`;
+
+export const DropBtn = styled.button`
+  position: absolute;
+  bottom: 14px;
+  right: 18px;
+
+  width: 20px;
+  height: 20px;
+
+  color: #121417;
+  background-color: transparent;
+
+  cursor: pointer;
+`;
+
+export const DropIcon = styled.svg`
+  stroke: currentColor;
+  fill: transparent;
+`;
+
+export const CloseBtn = styled.button`
+  position: absolute;
+  bottom: 14px;
+  right: 45px;
+
+  width: 18px;
+  height: 18px;
+
+  color: #121417;
+  background-color: transparent;
+
+  cursor: pointer;
+`;
+
+export const CloseIcon = styled.svg`
+  stroke: currentColor;
+`;
+
+export const BtnContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const BrandList = styled.ul`
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 303px;
+  height: 272px;
+  padding: 14px 8px 14px 18px;
+
+  overflow-y: scroll;
+
+  transform: translateY(100%);
+
+  border-radius: 14px;
+  border: 1px solid rgba(18, 20, 23, 0.05);
+
+  background-color: #fff;
+  box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.02);
+
+  z-index: 100;
+`;
+
+export const BrandListItem = styled.li`
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+`;
+
+export const BrandBtn = styled.button`
+  color: rgba(18, 20, 23, 0.2);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  background-color: transparent;
+  cursor: pointer;
+`;
