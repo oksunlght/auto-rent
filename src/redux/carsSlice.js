@@ -13,7 +13,6 @@ export const carsSlice = createSlice({
     error: null,
     selectedCar: [],
     carBrands: [],
-    priceFilter: '',
   },
 
   reducers: {
@@ -28,13 +27,6 @@ export const carsSlice = createSlice({
     removeFavorite(state, action) {
       const index = state.favorite.findIndex(({ id }) => id === action.payload);
       state.favorite.splice(index, 1);
-    },
-
-    // setFilter(state, action) {
-    //   state.filter = action.payload;
-    // },
-    setPriceFilter(state, action) {
-      state.priceFilter = action.payload;
     },
     filterCars(state, action) {
       state.ads = action.payload;
@@ -74,11 +66,5 @@ const persistConfig = {
 };
 
 export const carsReducer = persistReducer(persistConfig, carsSlice.reducer);
-export const {
-  onCarSelect,
-  addFavorite,
-  removeFavorite,
-  // setFilter,
-  setPriceFilter,
-  filterCars,
-} = carsSlice.actions;
+export const { onCarSelect, addFavorite, removeFavorite, filterCars } =
+  carsSlice.actions;

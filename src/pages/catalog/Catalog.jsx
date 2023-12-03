@@ -7,11 +7,13 @@ import CarCard from 'components/carCard/CarCard';
 import Modal from 'components/Modal/Modal';
 import FilterByBrand from 'components/FilterByBrand/FilterByBrand';
 import FilterByPrice from 'components/FilterByPrice/FilterByPrice';
+import FilterMileage from 'components/FilterMileage/FilterMileage';
 import {
   AdsList,
   MoreBtn,
   FiltersContainer,
   EmptyList,
+  BackBtn,
 } from './Catalog.styled';
 
 const Catalog = () => {
@@ -49,6 +51,10 @@ const Catalog = () => {
     }
   };
 
+  const onBackBtnClick = () => {
+    dispatch(carsOperations.fetchAds({ p: 1, l: 12 }));
+  };
+
   return isLoading ? (
     <Grid
       height="100"
@@ -74,9 +80,16 @@ const Catalog = () => {
         <FiltersContainer>
           <FilterByBrand />
           <FilterByPrice />
+          <FilterMileage />
         </FiltersContainer>
         {carAds.length === 0 ? (
-          <EmptyList>There are no such cars</EmptyList>
+          <>
+            {' '}
+            <EmptyList>There are no such cars</EmptyList>
+            <BackBtn type="button" onClick={onBackBtnClick}>
+              Back to full catalog
+            </BackBtn>
+          </>
         ) : (
           <>
             <AdsList>

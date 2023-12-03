@@ -32,11 +32,31 @@ export const FiltersContainer = styled.div`
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+  align-items: center;
 `;
 
 export const EmptyList = styled.p`
+  margin-bottom: 48px;
   font-size: 24px;
   font-weight: 400;
   color: var(--shadow-text-color);
   text-align: center;
+`;
+
+export const BackBtn = styled.button`
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+  color: var(--accent-color);
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:focus,
+  &:hover {
+    color: var(--focus-color);
+  }
 `;

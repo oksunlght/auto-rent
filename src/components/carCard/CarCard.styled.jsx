@@ -68,7 +68,7 @@ export const FavBtn = styled.button`
   top: 14px;
   right: 14px;
 
-  color: (--main-white-color);
+  color: var(--main-white-color);
   background-color: transparent;
   cursor: pointer;
 `;
