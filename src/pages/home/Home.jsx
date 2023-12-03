@@ -4,9 +4,9 @@ import { HomeContainer, Title, StyledLink } from './Home.styled';
 const Home = () => {
   return (
     <div>
-      <Title>Rent your car today</Title>
+      <Title>Cars for rent</Title>
       <HomeContainer></HomeContainer>
-      <StyledLink to="/catalog">To the diary </StyledLink>
+      <StyledLink to="/catalog">To catalog</StyledLink>
     </div>
   );
 };

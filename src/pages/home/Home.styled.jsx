@@ -6,6 +6,7 @@ export const HomeContainer = styled.div`
   display: block;
   width: 100vh;
   height: 424px;
+  margin-left: auto;
   background-image: url(${img});
   background-repeat: no-repeat;
   background-size: contain;
@@ -15,7 +16,7 @@ export const Title = styled.h1`
   margin-bottom: 50px;
 
   color: var(--main-text-color);
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 700;
 `;
 
@@ -26,7 +27,7 @@ export const StyledLink = styled(Link)`
   height: auto;
 
   color: var(--main-white-color);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   text-decoration: none;
   border-radius: 12px;
