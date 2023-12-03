@@ -117,10 +117,18 @@ export const BrandListItem = styled.li`
 `;
 
 export const BrandBtn = styled.button`
+  width: 224px;
+
   color: rgba(18, 20, 23, 0.2);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.25;
+  text-align: left;
   background-color: transparent;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: rgba(18, 20, 23);
+  }
 `;
