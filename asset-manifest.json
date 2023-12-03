@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/car-rental/static/css/main.afcdffdb.css",
-    "main.js": "/car-rental/static/js/main.6b635a55.js",
-    "static/js/645.9b103f9b.chunk.js": "/car-rental/static/js/645.9b103f9b.chunk.js",
-    "static/js/388.f9a6207a.chunk.js": "/car-rental/static/js/388.f9a6207a.chunk.js",
-    "static/js/270.4ff46080.chunk.js": "/car-rental/static/js/270.4ff46080.chunk.js",
+    "main.css": "/car-rental/static/css/main.1f71b48b.css",
+    "main.js": "/car-rental/static/js/main.00a9b79f.js",
+    "static/js/645.71923bad.chunk.js": "/car-rental/static/js/645.71923bad.chunk.js",
+    "static/js/388.8d797623.chunk.js": "/car-rental/static/js/388.8d797623.chunk.js",
+    "static/js/270.9b52f620.chunk.js": "/car-rental/static/js/270.9b52f620.chunk.js",
     "static/js/365.49aef5ea.chunk.js": "/car-rental/static/js/365.49aef5ea.chunk.js",
     "static/media/car-rental.jpg": "/car-rental/static/media/car-rental.3b2703c48046065383e5.jpg",
     "static/media/sprite.svg": "/car-rental/static/media/sprite.49a7bf13918b6e9d8cf6fb11c3e1f399.svg",
     "index.html": "/car-rental/index.html",
-    "main.afcdffdb.css.map": "/car-rental/static/css/main.afcdffdb.css.map",
-    "main.6b635a55.js.map": "/car-rental/static/js/main.6b635a55.js.map",
-    "645.9b103f9b.chunk.js.map": "/car-rental/static/js/645.9b103f9b.chunk.js.map",
-    "388.f9a6207a.chunk.js.map": "/car-rental/static/js/388.f9a6207a.chunk.js.map",
-    "270.4ff46080.chunk.js.map": "/car-rental/static/js/270.4ff46080.chunk.js.map",
+    "main.1f71b48b.css.map": "/car-rental/static/css/main.1f71b48b.css.map",
+    "main.00a9b79f.js.map": "/car-rental/static/js/main.00a9b79f.js.map",
+    "645.71923bad.chunk.js.map": "/car-rental/static/js/645.71923bad.chunk.js.map",
+    "388.8d797623.chunk.js.map": "/car-rental/static/js/388.8d797623.chunk.js.map",
+    "270.9b52f620.chunk.js.map": "/car-rental/static/js/270.9b52f620.chunk.js.map",
     "365.49aef5ea.chunk.js.map": "/car-rental/static/js/365.49aef5ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afcdffdb.css",
-    "static/js/main.6b635a55.js"
+    "static/css/main.1f71b48b.css",
+    "static/js/main.00a9b79f.js"
   ]
 }
