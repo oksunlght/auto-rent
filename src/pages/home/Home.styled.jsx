@@ -14,7 +14,7 @@ export const HomeContainer = styled.div`
 export const Title = styled.h1`
   margin-bottom: 50px;
 
-  color: #121417;
+  color: var(--main-text-color);
   font-size: 36px;
   font-weight: 700;
 `;
@@ -25,17 +25,17 @@ export const StyledLink = styled(Link)`
   width: 85px;
   height: auto;
 
-  color: #fff;
+  color: var(--main-white-color);
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   border-radius: 12px;
-  background-color: #3470ff;
+  background-color: var(--accent-color);
 
   cursor: pointer;
 
   &:hover,
   &:focus {
-    background-color: #0b44cd;
+    background-color: var(--focus-color);
   }
 `;

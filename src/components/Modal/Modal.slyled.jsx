@@ -9,11 +9,11 @@ const Overlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(18, 20, 23, 0.5);
+  background-color: var(--shadow-text-color);
 `;
 
 const Highlight = styled.span`
-  color: #3470ff;
+  color: var(--accent-color);
   font-weight: 600;
 `;
 
@@ -24,7 +24,7 @@ const ModalContainer = styled.div`
   width: 465px;
   height: auto;
 
-  background-color: #fff;
+  background-color: var(--main-white-color);
   border-radius: 24px;
 `;
 
@@ -49,7 +49,7 @@ const CloseBtn = styled.button`
 `;
 
 const CloseIcon = styled.svg`
-  stroke: #121417;
+  stroke: var(--main-text-color);
 `;
 
 const InfoWrapper = styled.div`
@@ -62,7 +62,7 @@ const Model = styled.p`
   margin-bottom: 8px;
 
   font-size: 18px;
-  color: #121417;
+  color: var(--main-text-color);
   line-height: 1.33;
   font-weight: 500;
 `;
@@ -73,7 +73,7 @@ const CarInfo = styled.p`
   margin-bottom: 14px;
   //   padding-right: 189px;
 
-  color: rgba(18, 20, 23, 0.5);
+  color: var(--shadow-text-color);
   font-size: 12px;
   line-height: 1.5;
   text-align: left;
@@ -110,7 +110,7 @@ const Description = styled.p`
   width: 461px;
   margin-bottom: 24px;
 
-  color: #121417;
+  color: var(--main-text-color);
   font-size: 14px;
   text-align: left;
   line-height: 1.43;
@@ -118,7 +118,7 @@ const Description = styled.p`
 
 const Specs = styled.p`
   margin-bottom: 8px;
-  color: #121417;
+  color: var(--main-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.43;
@@ -133,7 +133,7 @@ const SpecsItem = styled.li`
   position: relative;
   margin-left: 6px;
 
-  color: rgba(18, 20, 23, 0.5);
+  color: var(--shadow-text-color);
   font-size: 12px;
   line-height: 1.5;
   text-align: left;
@@ -185,19 +185,19 @@ const RentLink = styled.a`
   width: 168px;
   height: auto;
 
-  color: #fff;
+  color: var(--main-white-color);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.43;
   text-align: center;
   text-decoration: none;
-  background-color: #3470ff;
+  background-color: var(--accent-color);
   border-radius: 12px;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    background-color: #0b44cd;
+    background-color: var(--focus-color);
   }
 `;
 

@@ -11,8 +11,7 @@ export const Header = styled.header`
   padding: 8px 20px;
   padding-right: 70px;
 
-  // background-color: #f7f7fb;
-  background-color: #3470ff;
+  background-color: var(--accent-color);
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 `;
@@ -20,19 +19,19 @@ export const Header = styled.header`
 export const StyledLink = styled(NavLink)`
   padding: 8px 14px;
 
-  color: #fff;
+  color: var(--main-text-color);
   text-decoration: none;
 
-  background-color: #3470ff;
+  background-color: var(--accent-color);
 
   border-radius: 8px;
 
-  // border: 1px solid #fff;
-  box-shadow: 1px 1px 3px #fff;
+  box-shadow: 1px 1px 3px var(--main-text-color);
 
   &:hover,
   &:focus {
-    background-color: #0b44cd;
+    color: var(--main-white-color);
+    background-color: var(--focus-color);
   }
 
   &:not(:last-child) {

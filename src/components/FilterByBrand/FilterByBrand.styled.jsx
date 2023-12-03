@@ -15,7 +15,7 @@ export const BrandLabel = styled.label`
   display: flex;
   flex-direction: column;
 
-  color: #8a8a89;
+  color: var(--secondary-text-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
@@ -27,15 +27,15 @@ export const Input = styled.input`
   width: 224px;
   height: auto;
 
-  color: #121417;
+  color: var(--main-text-color);
   font-weight: 500;
   font-size: 18px;
   border: none;
   border-radius: 14px;
-  background-color: #f7f7fb;
+  background-color: var(--drop-color);
 
   &::placeholder {
-    color: #121417;
+    color: var(--main-text-color);
     font-weight: 500;
     font-size: 18px;
     line-height: 1.11;
@@ -51,7 +51,7 @@ export const DropBtn = styled.button`
   width: 20px;
   height: 20px;
 
-  color: #121417;
+  color: var(--main-text-color);
   background-color: transparent;
 
   cursor: pointer;
@@ -70,7 +70,7 @@ export const CloseBtn = styled.button`
   width: 18px;
   height: 18px;
 
-  color: #121417;
+  color: var(--main-text-color);
   background-color: transparent;
 
   cursor: pointer;
@@ -104,7 +104,7 @@ export const BrandList = styled.ul`
   border-radius: 14px;
   border: 1px solid rgba(18, 20, 23, 0.05);
 
-  background-color: #fff;
+  background-color: var(--main-white-color);
   box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.02);
 
   z-index: 100;

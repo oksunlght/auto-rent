@@ -83,8 +83,9 @@ const FilterByBrand = () => {
   };
 
   const onFocusChange = e => {
+    e.preventDefault();
     if (e.target.value === '') {
-      dispatch(carsOperations.fetchAds({ p: 1, l: 12 }));
+      // dispatch(carsOperations.fetchAds({ p: 1, l: 12 }));
       setIsFilterEmpty(true);
       return;
     }

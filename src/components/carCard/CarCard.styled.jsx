@@ -16,17 +16,17 @@ export const CarImage = styled.img`
 export const MoreBtn = styled.button`
   padding: 12px 99px;
 
-  color: #fff;
+  color: var(--main-white-color);
   font-size: 14px;
   font-weight: 600;
   border-radius: 12px;
-  background-color: #3470ff;
+  background-color: var(--accent-color);
 
   cursor: pointer;
 
   &:hover,
   &:focus {
-    background-color: #0b44cd;
+    background-color: var(--focus-color);
   }
 `;
 
@@ -45,7 +45,7 @@ export const ModelName = styled.p`
 `;
 
 export const Model = styled.span`
-  color: #3470ff;
+  color: var(--accent-color);
 `;
 
 export const Price = styled.p`
@@ -55,7 +55,7 @@ export const Price = styled.p`
 export const CarSpects = styled.p`
   margin-bottom: 28px;
 
-  color: rgba(18, 20, 23, 0.5);
+  color: var(--shadow-text-color);
   font-size: 12px;
   line-height: 1.5em;
   max-height: 3em;
@@ -68,7 +68,7 @@ export const FavBtn = styled.button`
   top: 14px;
   right: 14px;
 
-  color: #fff;
+  color: (--main-white-color);
   background-color: transparent;
   cursor: pointer;
 `;
@@ -79,6 +79,6 @@ export const FavIcon = styled.svg`
 `;
 
 export const FavIconActive = styled.svg`
-  stroke: #3470ff;
-  fill: #3470ff;
+  stroke: var(--accent-color);
+  fill: var(--accent-color);
 `;

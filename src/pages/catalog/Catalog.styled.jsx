@@ -5,13 +5,15 @@ export const AdsList = styled.ul`
   flex-wrap: wrap;
   margin-bottom: 100px;
   gap: 50px 29px;
+
+  z-index: 10;
 `;
 
 export const MoreBtn = styled.button`
   margin-right: auto;
   margin-left: auto;
 
-  color: #3470ff;
+  color: var(--accent-color);
   background-color: transparent;
   font-size: 16px;
   font-weight: 500;
@@ -22,7 +24,7 @@ export const MoreBtn = styled.button`
 
   &:hover,
   &:focus {
-    color: #0b44cd;
+    color: var(--focus-color);
   }
 `;
 
@@ -35,6 +37,6 @@ export const FiltersContainer = styled.div`
 export const EmptyList = styled.p`
   font-size: 24px;
   font-weight: 400;
-  color: rgba(18, 20, 23, 0.5);
+  color: var(--shadow-text-color);
   text-align: center;
 `;

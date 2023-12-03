@@ -31,7 +31,6 @@ const FilterByPrice = () => {
 
   const number = 450;
   for (let i = 10; i <= number; i += 10) {
-    console.log(i);
     if (priceLimit.includes(i)) {
       break;
     }

@@ -41,3 +41,18 @@ button {
   border: none;
   outline: none;
 }
+
+:root {
+  /* COLORS */
+  --main-white-color: #fff;
+  --main-text-color: #121417;
+  --secondary-text-color: #8a8a89;
+  --shadow-text-color: rgba(18, 20, 23, 0.5);
+  --accent-color: #3470ff;
+  --focus-color: #0b44cd;
+  --drop-color: #f7f7fb;
+
+  /* ANIMATIONS */
+  --function-duration: 350ms;
+  --function-timing: cubic-bezier(0.4, 0, 0.2, 1);
+}
